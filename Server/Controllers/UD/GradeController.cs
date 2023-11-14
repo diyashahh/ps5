@@ -50,10 +50,7 @@ namespace OCTOBER.Server.Controllers.UD
         }
 
 
-        public Task<IActionResult> Delete(int KeyVal)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         [HttpGet]
         [Route("Get")]
