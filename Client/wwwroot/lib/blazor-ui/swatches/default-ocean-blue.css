@@ -32281,11 +32281,11 @@ select.k-picker-lg {
 .k-progressbar-indeterminate .k-progressbar-chunk {
     display: none;
 }
-
+/*
 .telerik-blazor.k-progressbar-horizontal > .k-progressbar-value,
 .telerik-blazor.k-progressbar-horizontal > .k-progressbar-value > .k-progress-status-wrap {
     transition: width .1s ease-in-out;
-}
+}*/
 
 .k-rtl .k-progressbar,
 .k-progressbar[dir="rtl"] {
