@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using OCTOBER.EF.Models;
 
-namespace OCTOBER.EF
+namespace OCTOBER.EF.Data
 {
     public partial class OCTOBEROracleContext : DbContext
     {
