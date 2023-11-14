@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OCTOBER.Shared.DTO
 {
-	public class GradeConversion
+	public class GradeConversionDTO
 	{
         [Precision(8)]
         public int SchoolId { get; set; }
