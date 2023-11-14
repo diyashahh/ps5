@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using OCTOBER.EF.Models;
 
-namespace OCTOBER.EF.Data
+namespace OCTOBER.EF
 {
     public partial class OCTOBEROracleContext : DbContext
     {
@@ -31,7 +31,7 @@ namespace OCTOBER.EF.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasDefaultSchema("LAB5")
+            modelBuilder.HasDefaultSchema("UD_DIYASHAH")
                 .UseCollation("USING_NLS_COMP");
 
             modelBuilder.Entity<Course>(entity =>
